@@ -1,8 +1,15 @@
-# Demo
+## Demo
 [Jadoo Travel UI](https://yt-pixelperfectlabs.github.io/Jadoo-Travel-UI/)
 
-# Jadoo Travel UI
-A modern travel website UI built with HTML, CSS, and JavaScript, inspired by the [Jadoo Travel Figma Design](https://www.figma.com/community/file/993910904620677970).
+## Preview
+Here’s a preview of the **Jadoo Travel UI**:
+
+![Jadoo Travel UI](./images/Jadoo%20Landing%20Page%20UI.jpg)
+
+## Figma
+A modern travel website UI built with HTML, CSS, and JavaScript, inspired by the
+
+[Jadoo Travel Figma Design](https://www.figma.com/community/file/993910904620677970).
 
 ## Features
 - Fully responsive and modern UI.
