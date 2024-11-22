@@ -1,15 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jadoo Travel UI</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadoo Travel UI</title>
 
-  <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header" id="header">
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="brand">
+            <img src="./images/logo.png" alt="" />
+          </a>
+          <div class="burger">
+            <div class="burger-line-wrapper">
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </div>
+          </div>
+          <div class="menu" id="menu">
+            <div class="menu-header">
+              <a href="#" class="brand">
+                <img src="./images/logo.png" alt="" />
+              </a>
+              <div class="burger is-active close-menu">
+                <div class="burger-line-wrapper">
+                  <span class="burger-line"></span>
+                  <span class="burger-line"></span>
+                  <span class="burger-line"></span>
+                </div>
+              </div>
+            </div>
+            <ul class="menu-inner">
+              <li class="menu-item"><a href="#" class="menu-link">Destinations</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Hotels</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Flights</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Bookings</a></li>
+            </ul>
+          </div>
+          <div class="menu-block">
+            <a href="#" class="menu-block-link">Login</a>
+            <a href="#" class="menu-block-link menu-block-btn">Sign up</a>
+          </div>
+        </div>
+      </nav>
 
+      <div class="header-backdrop"></div>
+    </header>
+    <!-- Main Section -->
+    <main class="main" style="height: 200vh"></main>
 
-  <script src="./js/script.js"></script>
-</body>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
