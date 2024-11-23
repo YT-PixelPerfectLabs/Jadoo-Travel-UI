@@ -232,6 +232,8 @@
 
   /* Steps Section End   */
 
+  /* Testimonials Section Start   */
+
   .testimonials-avatar {
     position: absolute;
     left: 0;
@@ -242,6 +244,10 @@
 
   .testimonials-column {
     width: 50%;
+  }
+
+  .testimonials-column.slider-column {
+    padding-top: 60px;
   }
 
   .testimonials-section .swiper-pagination {
@@ -264,11 +270,20 @@
     height: 355px;
     max-width: calc(100% - 40px);
     overflow: visible;
-    margin-top: -80px;
+  }
+
+  .testimonials-section .swiper-slide {
+    opacity: 0;
+    transition: all 0.01s ease;
+  }
+
+  .testimonials-section .swiper-slide.swiper-slide-active {
+    opacity: 1;
   }
 
   .testimonials-section .swiper-slide.swiper-slide-active + .swiper-slide {
-    transform: translate(8%, -95%);
+    transform: translate(8%, -70%);
+    opacity: 1;
   }
 
   .testimonials-section .swiper-slide.swiper-slide-active .testimonials-card {
@@ -284,7 +299,6 @@
   .testimonials-section .swiper-wrapper {
     width: calc(100% - 80px);
     left: 40px;
-    gap: 80px;
   }
 
   .testimonials-section .swiper-button-next,
@@ -306,6 +320,21 @@
     transform: rotate(0deg);
     transform-origin: center;
   }
+
+  .testimonials-section .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+  }
+
+  /* Testimonials Section End   */
+
+  /* Logos Section Start   */
+
+  .logo-section-swiper {
+    padding: 24px 0 100px;
+  }
+
+  /* Logos Section End   */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */

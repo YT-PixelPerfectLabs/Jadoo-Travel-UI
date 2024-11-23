@@ -36,13 +36,12 @@ window.addEventListener("scroll", () => {
 new Swiper(".testimonials-swiper", {
   direction: "horizontal",
   slidesPerView: 1,
-  loop: true,
-  clickable: true,
   allowTouchMove: true,
   spaceBetween: 24,
-  initialSlide: 0,
+  effect: "slide",
+  speed: 500,
   autoplay: {
-    delay: 5000,
+    delay: 3000,
   },
   pagination: {
     el: ".swiper-pagination",
@@ -57,15 +56,29 @@ new Swiper(".testimonials-swiper", {
       direction: "horizontal",
       slidesPerView: 1.1,
       spaceBetween: 24,
-      allowTouchMove: true,
-      initialSlide: 0,
     },
     992: {
       direction: "vertical",
-      slidesPerView: 1.5,
+      slidesPerView: 1,
       spaceBetween: 0,
-      allowTouchMove: false,
-      initialSlide: 2,
+      effect: "fade",
+    },
+  },
+});
+
+new Swiper(".logo-section-swiper", {
+  slidesPerView: 3,
+  speed: 500,
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 3,
+    },
+    992: {
+      slidesPerView: 5,
     },
   },
 });
