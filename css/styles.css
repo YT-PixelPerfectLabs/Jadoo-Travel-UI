@@ -679,12 +679,17 @@ h6 {
   border-radius: 26px;
   width: 100%;
   max-width: 370px;
+  transition: all 0.35s ease;
   box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 2%),
     0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 2%),
     0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 1%),
     0px 20px 13px 0px rgba(0, 0, 0, 1%),
     0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 1%),
     0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0%);
+}
+
+.step-card:hover {
+  transform: translateY(-2%);
 }
 
 .step-card-header {
@@ -775,6 +780,7 @@ h6 {
   top: unset;
   bottom: -5%;
   right: -2%;
+  animation: float 5s ease-in-out infinite;
   box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 2%),
     0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 2%),
     0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 1%),
@@ -842,6 +848,18 @@ h6 {
   height: 100%;
   width: 100%;
   background-color: #8a79df;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(-10px, -20px);
+  }
+  100% {
+    transform: translatey(0px, 0px);
+  }
 }
 
 /* Steps Section End   */
