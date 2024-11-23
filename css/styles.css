@@ -103,7 +103,7 @@ video {
 }
 
 .brand img {
-  max-width: 85px;
+  max-width: 65px;
   max-height: 34px;
 }
 
@@ -165,7 +165,7 @@ video {
   font-family: "Open Sans", sans-serif;
   color: #212832;
   display: inline-block;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 500;
   text-align: center;
   margin-left: auto;
@@ -178,7 +178,7 @@ video {
 
 .menu-block-btn {
   border: 2px solid #212832;
-  padding: 9px 22px;
+  padding: 8px 16px;
   border-radius: 5px;
 }
 

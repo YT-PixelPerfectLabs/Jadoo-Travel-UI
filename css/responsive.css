@@ -1,5 +1,12 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .menu-block-link {
+    font-size: 17px;
+  }
+
+  .menu-block-btn {
+    padding: 9px 22px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
