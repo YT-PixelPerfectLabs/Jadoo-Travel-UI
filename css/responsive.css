@@ -61,6 +61,26 @@
   }
 
   /* Hero Section End */
+
+  /* Category Section Start */
+
+  .section-sub-heading {
+    font-size: 18px;
+  }
+
+  .section-main-heading {
+    font-size: 50px;
+  }
+
+  .category-pattern {
+    right: 3rem;
+  }
+
+  .category-column {
+    width: calc(50% - 15px);
+  }
+
+  /* Category Section End */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -133,6 +153,33 @@
   }
 
   /* Hero Section End */
+
+  /* Category Section Start */
+
+  .category-card {
+    box-shadow: none;
+  }
+
+  .category-card:hover {
+    box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 2%),
+      0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 2%),
+      0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 1%),
+      0px 20px 13px 0px rgba(0, 0, 0, 1%),
+      0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 1%),
+      0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0%);
+    transform: translateY(-5%);
+  }
+
+  .category-rectangle {
+    opacity: 0;
+  }
+
+  .category-card:hover + .category-rectangle {
+    opacity: 1;
+    transform: translate(-10%, 0%);
+  }
+
+  /* Category Section End */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -144,6 +191,21 @@
   .hero-find-btn {
     margin-right: 44px;
   }
+
+  /* Category Section Start */
+
+  .category-row {
+    margin-left: -30px;
+    margin-right: -30px;
+    gap: 0;
+  }
+
+  .category-column {
+    width: 25%;
+    padding: 0 15px;
+  }
+
+  /* Category Section End */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
