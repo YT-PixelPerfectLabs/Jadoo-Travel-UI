@@ -38,7 +38,7 @@ Watch the step-by-step implementation of this project on my YouTube channel:
 
 If you like this project and want to support my work, consider buying me a coffee!
 
-<a href="buymeacoffee.com/pixelperfectlabs">
+<a href="https://www.buymeacoffee.com/pixelperfectlabs">
   <img src="https://i.ibb.co/8sYMgd1/bmc-qr.png" alt="Buy Me a Coffee" height="200" width="200" />
 </a>
 
