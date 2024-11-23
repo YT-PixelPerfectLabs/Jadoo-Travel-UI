@@ -6,6 +6,10 @@
     <title>Jadoo Travel UI</title>
     <link rel="icon" type="image/x-icon" href="./images/jadoo-favicon.png" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
@@ -387,8 +391,84 @@
           </div>
         </div>
       </section>
+
+      <!-- Testimonials Section -->
+      <section class="section testimonials-section swiper">
+        <div class="container">
+          <div class="testimonials-row">
+            <div class="testimonials-column">
+              <div class="section-header">
+                <div class="section-sub-heading">Testimonials</div>
+                <h3 class="section-main-heading">
+                  What people say <br />
+                  about Us.
+                </h3>
+              </div>
+            </div>
+            <div class="testimonials-column slider-column">
+              <!-- Slider main container -->
+              <div class="testimonials-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonials-card">
+                      <div class="testimonials-avatar">
+                        <img src="https://images.pexels.com/photos/1270076/pexels-photo-1270076.jpeg" alt="">
+                      </div>
+                      <div class="testimonials-quote">
+                        “On the Windows talking painted pasture yet its express
+                        parties use. Sure last upon he same as knew next. Of
+                        believed or diverted no.”
+                      </div>
+                      <div class="testimonials-person">Chris Thomas</div>
+                      <div class="testimonials-info">CEO of Red Button</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonials-card">
+                      <div class="testimonials-avatar">
+                        <img src="https://images.pexels.com/photos/157920/woman-face-curly-hair-157920.jpeg" alt="">
+                      </div>
+                      <div class="testimonials-quote">
+                        “After going through a number of sites, I had to settle
+                        for Jadoo because honestly it was a no brainer trying
+                        someone else”
+                      </div>
+                      <div class="testimonials-person">Sarah Connor</div>
+                      <div class="testimonials-info">Globetrotter</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonials-card">
+                      <div class="testimonials-avatar">
+                        <img src="https://images.pexels.com/photos/29497727/pexels-photo-29497727/free-photo-of-man-relaxing-on-modern-bridge-with-city-views.jpeg" alt="">
+                      </div>
+                      <div class="testimonials-quote">
+                        “On the Windows talking painted pasture yet its express
+                        parties use. Sure last upon he same as knew next. Of
+                        believed or diverted no.”
+                      </div>
+                      <div class="testimonials-person">Mike Taylor</div>
+                      <div class="testimonials-info">Lahore, Pakistan</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="testimonials-controls">
+                  <div class="swiper-button-prev bx bx-chevron-up"></div>
+                  <div class="swiper-button-next bx bx-chevron-down"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
