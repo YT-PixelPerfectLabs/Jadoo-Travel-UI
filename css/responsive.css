@@ -4,16 +4,66 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .container {
+    padding: 0 3rem;
+  }
+
+  /* Hero Section Start */
+
+  .hero-section {
+    padding-bottom: 100px;
+  }
+
+  .hero-row {
+    flex-direction: row;
+  }
+
+  .hero-column.hero-column-content {
+    width: 50%;
+  }
+
+  .hero-column.hero-column-image {
+    width: 50%;
+  }
+
+  .hero-column-content {
+    order: 1;
+  }
+
+  .hero-column-image {
+    order: 2;
+  }
+
+  .hero-find-btn {
+    margin-right: 30px;
+  }
+
+  .hero-find-btn,
+  .hero-play-btn {
+    font-size: 14px;
+  }
+
+  .hero-play-btn span {
+    height: 52px;
+    width: 52px;
+    margin-right: 21px;
+  }
+
+  .hero-sub-heading {
+    font-size: 20px;
+  }
+
+  /* Hero Section End */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
   /* Header Navigation Start   */
 
   .navbar {
     padding: 47px 0;
     box-shadow: none;
+    background-color: transparent;
   }
 
   .on-scroll .navbar {
@@ -68,10 +118,25 @@
   }
 
   /* Header Navigation End   */
+
+  /* Hero Section Start */
+
+  .hero-main-heading {
+    font-size: 64px;
+  }
+
+  /* Hero Section End */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .hero-main-heading {
+    font-size: 84px;
+  }
+
+  .hero-find-btn {
+    margin-right: 44px;
+  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
