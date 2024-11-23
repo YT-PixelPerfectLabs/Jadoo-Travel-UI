@@ -593,3 +593,255 @@ h6 {
 }
 
 /* Selling Section End   */
+
+/* Steps Section End   */
+
+.steps-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.steps-section .section-header {
+  text-align: left;
+}
+
+.steps-row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  align-items: flex-start;
+}
+
+.steps-column {
+  width: 50%;
+  position: relative;
+}
+
+.steps-column-steps,
+.steps-column-card {
+  width: 100%;
+}
+
+.steps-column-steps {
+  margin-bottom: 80px;
+}
+
+.steps-column-card {
+  max-width: 485px;
+  margin: 0 auto;
+}
+
+.steps-steps ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.steps-steps ul li {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  max-width: 395px;
+}
+
+.steps-steps ul li .step-icon {
+  height: 48px;
+  width: 48px;
+  flex: 0 0 auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps-steps ul li .step-icon.step-icon-yellow {
+  background-color: #f1a501;
+}
+
+.steps-steps ul li .step-icon.step-icon-orange {
+  background-color: #f15a2b;
+}
+
+.steps-steps ul li .step-icon.step-icon-green {
+  background-color: #006380;
+}
+
+.step-title {
+  font-size: 16px;
+  color: #5e6282;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.step-card {
+  background-color: #fff;
+  padding: 20px 24px;
+  border-radius: 26px;
+  width: 100%;
+  max-width: 370px;
+  box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 2%),
+    0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 2%),
+    0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 1%),
+    0px 20px 13px 0px rgba(0, 0, 0, 1%),
+    0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 1%),
+    0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0%);
+}
+
+.step-card-header {
+  width: 100%;
+  height: 160px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.step-card-header img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.step-card-body {
+  padding-top: 26px;
+}
+
+.step-card-title {
+  color: #080809;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+.step-card-trip-details {
+  color: #84829a;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.step-card-icon {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: #f5f5f5;
+  color: #84829a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-card-icons {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 30px;
+}
+
+.step-card-people .bx {
+  font-size: 20px;
+}
+
+.step-card-people {
+  color: #84829a;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.step-shadow {
+  background-image: url("../images/step-shadow.png");
+  height: 550px;
+  width: 550px;
+  background-size: cover;
+  position: absolute;
+  top: -40%;
+  right: -20%;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.step-card-small {
+  padding: 17px 20px;
+  border-radius: 18px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 260px;
+  position: absolute;
+  top: unset;
+  bottom: -5%;
+  right: -2%;
+  box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 2%),
+    0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 2%),
+    0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 1%),
+    0px 20px 13px 0px rgba(0, 0, 0, 1%),
+    0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 1%),
+    0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0%);
+}
+
+.step-card-small-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.step-card-small-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.step-card-small-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.step-card-small-copy {
+  flex: 1;
+}
+
+.step-card-small-status {
+  color: #84829a;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.step-card-small-title {
+  color: #080809;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.step-card-small-progress {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.step-card-small-progress span {
+  color: #8a79df;
+}
+
+.step-card-small-bar {
+  height: 5px;
+  border-radius: 30px;
+  background-color: #f5f5f5;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.step-card-bar-done {
+  height: 100%;
+  width: 100%;
+  background-color: #8a79df;
+}
+
+/* Steps Section End   */
