@@ -110,6 +110,16 @@
     bottom: unset;
     right: 0%;
   }
+
+  .section-news-input {
+    width: 300px;
+    height: 68px;
+  }
+
+  .section-news-title {
+    font-size: 23px;
+    line-height: 40px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -272,6 +282,10 @@
     overflow: visible;
   }
 
+  .testimonials-section .swiper-slide .testimonials-card {
+    background-color: transparent;
+  }
+
   .testimonials-section .swiper-slide {
     opacity: 0;
     transition: all 0.01s ease;
@@ -335,6 +349,25 @@
   }
 
   /* Logos Section End   */
+
+  .section-news {
+    padding: 0px 0 100px;
+  }
+
+  .section-news-input {
+    width: 421px;
+    height: 68px;
+  }
+
+  .section-news-title {
+    font-size: 33px;
+    line-height: 54px;
+  }
+
+  .section-news-btn button {
+    padding: 22px 50px;
+    font-size: 17px;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */

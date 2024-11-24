@@ -54,7 +54,7 @@ new Swiper(".testimonials-swiper", {
   breakpoints: {
     0: {
       direction: "horizontal",
-      slidesPerView: 1.1,
+      slidesPerView: 1.2,
       spaceBetween: 24,
     },
     992: {
@@ -71,11 +71,11 @@ new Swiper(".logo-section-swiper", {
   speed: 500,
   loop: true,
   autoplay: {
-    delay: 5000,
+    delay: 2000,
   },
   breakpoints: {
     0: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     992: {
       slidesPerView: 5,
