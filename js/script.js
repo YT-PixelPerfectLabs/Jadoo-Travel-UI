@@ -1,3 +1,6 @@
+//WOW init
+new WOW().init();
+
 const headerMenu = document.querySelector("#header");
 const burgerMenu = headerMenu.querySelector(".burger");
 const closeMenu = headerMenu.querySelector(".close-menu");

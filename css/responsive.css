@@ -245,6 +245,10 @@
 
   /* Category Section End */
 
+  .selling-card-image {
+    height: 327px;
+  }
+
   /* Steps Section Start   */
 
   .steps-column-steps {
@@ -405,6 +409,15 @@
     order: 5;
     width: 25%;
     margin-bottom: 0;
+  }
+
+  footer {
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+
+  .footer-copy-rights {
+    padding: 80px 0 80px;
   }
 }
 
