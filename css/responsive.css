@@ -7,6 +7,27 @@
   .menu-block-btn {
     padding: 9px 22px;
   }
+
+  .footer-row {
+    gap: 0;
+  }
+
+  .footer-column-logo {
+    order: 1;
+    width: 58.33333%;
+    margin-bottom: 50px;
+  }
+
+  .footer-column-social {
+    order: 2;
+    width: 41.66667%;
+    margin-bottom: 50px;
+  }
+
+  .footer-column-link {
+    order: 3;
+    width: 33.33333%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -367,6 +388,23 @@
   .section-news-btn button {
     padding: 22px 50px;
     font-size: 17px;
+  }
+
+  .footer-column-logo {
+    order: 1;
+    width: 25%;
+    margin-bottom: 0;
+  }
+
+  .footer-column-link {
+    order: 3;
+    width: 16.66667%;
+  }
+
+  .footer-column-social {
+    order: 5;
+    width: 25%;
+    margin-bottom: 0;
   }
 }
 
